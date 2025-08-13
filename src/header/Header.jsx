@@ -9,8 +9,9 @@ function Header() {
       <div className="logo">MySite</div>
       <nav className="nav-links">
         <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
+        <Link to="/registration">Registration</Link>
         <Link to="/contact">Contact</Link>
+        <Link to="/events">Events</Link>
       </nav>
     </header>
   );

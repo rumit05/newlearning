@@ -1,0 +1,316 @@
+/* Home page styles */
+
+
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  background: #fafbfc;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.04);
+  border-radius: 16px;
+}
+
+
+.home-banner {
+  margin-bottom: 2.5rem;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+
+/* SLSGV-inspired homepage redesign */
+
+.slsgv-home {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f6f8fa;
+  color: #23395d;
+}
+
+.slsgv-hero {
+  background: linear-gradient(120deg, #2563eb 0%, #60a5fa 100%);
+  color: #fff;
+  padding: 4rem 1rem 3rem 1rem;
+  text-align: center;
+  position: relative;
+}
+.slsgv-hero-content h1 {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+}
+.slsgv-hero-content p {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+.slsgv-hero-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+.slsgv-btn {
+  padding: 0.7rem 2rem;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.2s;
+  display: inline-block;
+}
+.slsgv-btn-primary {
+  background: #2563eb;
+  color: #fff;
+}
+.slsgv-btn-primary:hover {
+  background: #1d4ed8;
+}
+.slsgv-btn-secondary {
+  background: #fff;
+  color: #2563eb;
+  border: 2px solid #2563eb;
+}
+.slsgv-btn-secondary:hover {
+  background: #e0eafc;
+}
+
+.slsgv-help-cards {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin: 3rem 0;
+  flex-wrap: wrap;
+}
+.slsgv-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+  padding: 2rem 1.5rem;
+  max-width: 340px;
+  flex: 1 1 300px;
+  text-align: center;
+}
+.slsgv-card h2 {
+  color: #2563eb;
+  margin-bottom: 1rem;
+}
+.slsgv-card p {
+  margin-bottom: 1.5rem;
+}
+
+.slsgv-about {
+  background: #e0eafc;
+  border-radius: 16px;
+  margin: 3rem auto;
+  max-width: 900px;
+  padding: 2rem 1.5rem;
+  text-align: center;
+}
+.slsgv-about-content h2 {
+  color: #2563eb;
+  margin-bottom: 1rem;
+}
+.slsgv-about-actions {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.slsgv-whatwedo {
+  margin: 3rem auto;
+  max-width: 1100px;
+  padding: 2rem 1.5rem;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+}
+.slsgv-whatwedo h2 {
+  text-align: center;
+  color: #2563eb;
+  margin-bottom: 2rem;
+}
+.slsgv-features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+}
+.slsgv-feature {
+  background: #e0eafc;
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.05);
+}
+.slsgv-feature h3 {
+  color: #2563eb;
+  margin-bottom: 0.7rem;
+}
+
+.slsgv-activities {
+  background: #fff;
+  border-radius: 16px;
+  margin: 3rem auto;
+  max-width: 900px;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+}
+.slsgv-activities h2 {
+  color: #2563eb;
+  margin-bottom: 1rem;
+}
+.slsgv-activities-video {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.slsgv-mission-vision {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin: 3rem 0;
+  flex-wrap: wrap;
+}
+.slsgv-mission, .slsgv-vision {
+  background: #e0eafc;
+  border-radius: 12px;
+  padding: 2rem 1.5rem;
+  flex: 1 1 350px;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.05);
+}
+.slsgv-mission h2, .slsgv-vision h2 {
+  color: #2563eb;
+  margin-bottom: 1rem;
+}
+
+.slsgv-founders {
+  background: #fff;
+  border-radius: 16px;
+  margin: 3rem auto;
+  max-width: 1100px;
+  padding: 2rem 1.5rem;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+}
+.slsgv-founders h2 {
+  text-align: center;
+  color: #2563eb;
+  margin-bottom: 2rem;
+}
+.slsgv-founders-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 2rem;
+}
+.slsgv-founder-card {
+  background: #e0eafc;
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.05);
+}
+.slsgv-founder-avatar img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+.slsgv-founder-info h3 {
+  margin-bottom: 0.5rem;
+  color: #2563eb;
+}
+
+.slsgv-footer {
+  background: linear-gradient(120deg, #2563eb 0%, #60a5fa 100%);
+  color: #fff;
+  padding: 2rem 1rem 1rem 1rem;
+  border-radius: 16px 16px 0 0;
+  margin-top: 4rem;
+  text-align: center;
+}
+.slsgv-footer-contact {
+  margin-bottom: 1rem;
+}
+.slsgv-footer-contact a {
+  color: #fff;
+  text-decoration: underline;
+}
+.slsgv-footer-links {
+  margin-bottom: 1rem;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.slsgv-footer-links a {
+  color: #fff;
+  text-decoration: underline;
+  font-weight: 500;
+}
+.slsgv-footer-copy {
+  font-size: 1rem;
+}
+
+
+.gallery-img {
+  width: 100%;
+  max-width: 220px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  background: #f0f0f0;
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+}
+.gallery-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+
+
+.home-gallery img {
+  width: 220px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  background: #f0f0f0;
+  transition: transform 0.2s;
+}
+.home-gallery img:hover {
+  transform: scale(1.04);
+}
+
+
+.home-events {
+  margin-bottom: 2.5rem;
+  background: #f7fafd;
+  border-radius: 12px;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.04);
+  padding: 1.5rem;
+}
+.home-events h3 {
+  margin-bottom: 1rem;
+  color: #2d3a4b;
+}
+.home-events ul {
+  list-style: disc inside;
+  padding-left: 1rem;
+}
+.home-events li {
+  margin-bottom: 0.5rem;
+  font-size: 1.08rem;
+  color: #3a4a5d;
+}
+
+
+.home-footer {
+  background: linear-gradient(90deg, #e0eafc 0%, #cfdef3 100%);
+  padding: 2rem 1.5rem;
+  text-align: center;
+  border-radius: 12px;
+  color: #2d3a4b;
+  font-size: 1.1rem;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.04);
+}

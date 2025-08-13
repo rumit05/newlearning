@@ -1,0 +1,41 @@
+/* Contact page styles */
+
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.contact-flex {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.contact-image {
+  margin-right: 1.5rem;
+  background: #eee;
+  border-radius: 8px;
+}
+
+.contact-image svg {
+  display: block;
+}
+
+.contact-title {
+  margin-bottom: 0.5rem;
+}
+
+.contact-section {
+  margin-bottom: 2rem;
+}
+
+.contact-details p {
+  margin: 0.25rem 0;
+}
+
+.contact-map {
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  overflow: hidden;
+}
